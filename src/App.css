@@ -1,0 +1,17 @@
+.App {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.App .MangaItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  margin: 25px;
+}
+
+.App .MangaItem img {
+  margin-bottom: 10px;
+}
