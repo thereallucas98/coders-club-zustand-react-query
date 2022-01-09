@@ -1,6 +1,12 @@
 .App {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
+}
+
+.App .show-favorite-button {
+  margin-top: 10px;
+  width: 250px;
+  height: 50px;
 }
 
 .App .MangaItem {
